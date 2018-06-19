@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "server": "./node_modules/.bin/webpack-dev-server",
-    "test": "karma start"
+    "test": "karma start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Nate Murray <nate@fullstack.io>",
   "license": "MIT",
@@ -56,6 +58,8 @@
     "val-loader": "^0.5.0",
     "webpack": "^1.10.1",
     "webpack-dev-server": "pmq20/webpack-dev-server#29c6a0d",
-    "webpack-reload-plugin": "^0.1.2"
-  }
+    "webpack-reload-plugin": "^0.1.2",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }

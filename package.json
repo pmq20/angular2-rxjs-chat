@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "server": "./node_modules/.bin/webpack-dev-server",
-    "test": "karma start"
+    "test": "karma start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Nate Murray <nate@fullstack.io>",
   "license": "MIT",
@@ -34,13 +36,13 @@
     "es6-symbol": "^2.0.1",
     "extract-text-webpack-plugin": "^0.8.2",
     "file-loader": "^0.8.4",
-    "html-webpack-plugin": "^1.6.0",
+    "html-webpack-plugin": "^2.10.0",
     "imports-loader": "^0.6.4",
     "karma": "pmq20/karma#8116899",
     "karma-chrome-launcher": "^0.2.0",
     "karma-sourcemap-loader": "^0.3.5",
     "karma-spec-reporter": "0.0.20",
-    "karma-webpack": "^1.7.0",
+    "karma-webpack": "^2.0.10",
     "moment": "^2.10.6",
     "node-sass": "^3.2.0",
     "optimist": "^0.6.1",
@@ -56,6 +58,8 @@
     "val-loader": "^0.5.0",
     "webpack": "^1.10.1",
     "webpack-dev-server": "pmq20/webpack-dev-server#29c6a0d",
-    "webpack-reload-plugin": "^0.1.2"
-  }
+    "webpack-reload-plugin": "^0.1.2",
+    "snyk": "^1.88.0"
+  },
+  "snyk": true
 }

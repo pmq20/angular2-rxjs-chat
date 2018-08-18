@@ -1,0 +1,67 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - webpack-dev-server > socket.io-client > debug:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > debug:
+        patched: '2018-08-18T02:53:07.769Z'
+    - karma > socket.io > engine.io > debug:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > engine.io > debug:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io-client > engine.io-client > debug:
+        patched: '2018-08-18T02:53:07.769Z'
+    - karma > socket.io > socket.io-client > debug:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > socket.io-client > debug:
+        patched: '2018-08-18T02:53:07.769Z'
+    - karma > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2018-08-18T02:53:07.769Z'
+    - karma > socket.io > debug:
+        patched: '2018-08-18T02:53:07.769Z'
+  'npm:ms:20151024':
+    - webpack-dev-server > socket.io-client > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - karma > socket.io > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - karma > socket.io > engine.io > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > engine.io > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io-client > engine.io-client > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - karma > socket.io > socket.io-client > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > socket.io-client > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - karma > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - karma > socket.io > socket.io-adapter > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > socket.io-adapter > debug > ms:
+        patched: '2018-08-18T02:53:07.769Z'
+  'npm:negotiator:20160616':
+    - karma > socket.io > engine.io > accepts > negotiator:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > engine.io > accepts > negotiator:
+        patched: '2018-08-18T02:53:07.769Z'
+  'npm:ws:20160920':
+    - karma > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io-client > engine.io-client > ws:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > engine.io > ws:
+        patched: '2018-08-18T02:53:07.769Z'
+    - karma > socket.io > engine.io > ws:
+        patched: '2018-08-18T02:53:07.769Z'
+    - webpack-dev-server > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2018-08-18T02:53:07.769Z'

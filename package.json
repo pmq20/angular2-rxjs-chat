@@ -21,7 +21,7 @@
     "tsd": "^0.6.3",
     "tslint-loader": "^1.0.1",
     "typescript": "^1.5.3",
-    "webpack": "^1.8.11",
+    "webpack": "^2.2.0",
     "webpack-notifier": "^1.2.1"
   },
   "dependencies": {
@@ -54,7 +54,7 @@
     "url-loader": "^0.5.6",
     "uuid": "^2.0.1",
     "val-loader": "^0.5.0",
-    "webpack": "^1.10.1",
+    "webpack": "^2.2.0",
     "webpack-dev-server": "pmq20/webpack-dev-server#29c6a0d",
     "webpack-reload-plugin": "^0.1.2"
   }
